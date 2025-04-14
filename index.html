@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Việc Làm Công Nhân - Kết nối việc làm cho công nhân Việt Nam</title>
+  
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet"/>
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">
+          <a href="/">Việc Làm Công Nhân</a>
+        </div>
+        <div class="header-right">
+          <div class="contact-info">
+            <span><i class="fas fa-phone-alt"></i> 0123 456 789</span>
+            <span><i class="fas fa-envelope"></i> lienhe@vieclamcongnhan.com</span>
+          </div>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-zalo">Z</i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <!-- Navigation Menu -->
+  <nav class="nav">
+    <div class="container">
+      <div class="menu-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="/">Trang Chủ</a></li>
+        <li><a href="/vieclam.html">Việc Làm</a></li>
+        <li><a href="/nganh-nghe.html">Ngành Nghề</a></li>
+        <li><a href="/cong-ty.html">Công Ty</a></li>
+        <li><a href="/huong-dan.html">Hướng Dẫn</a></li>
+        <li><a href="/lien-he.html">Liên Hệ</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Tìm Kiếm Công Việc Phù Hợp</h1>
+        <p>Hàng nghìn cơ hội việc làm cho công nhân tại các khu công nghiệp, nhà máy và xí nghiệp trên toàn quốc.</p>
+        
+        <div class="search-box">
+          <form action="/search.html" class="search-form" method="get">
+            <input class="search-input" name="q" placeholder="Nhập từ khóa công việc..." type="text"/>
+            <select class="search-select" name="nganhnghe">
+              <option value="">-- Chọn ngành nghề --</option>
+              <option value="san-xuat">Sản xuất</option>
+              <option value="may-mac">May mặc</option>
+              <option value="dien-tu">Điện tử</option>
+              <option value="co-khi">Cơ khí</option>
+              <option value="thuc-pham">Thực phẩm</option>
+              <option value="dong-goi">Đóng gói</option>
+            </select>
+            <select class="search-select" name="khuvuc">
+              <option value="">-- Chọn khu vực --</option>
+              <option value="ha-noi">Hà Nội</option>
+              <option value="ho-chi-minh">TP. Hồ Chí Minh</option>
+              <option value="binh-duong">Bình Dương</option>
+              <option value="dong-nai">Đồng Nai</option>
+              <option value="bac-ninh">Bắc Ninh</option>
+              <option value="hai-phong">Hải Phòng</option>
+            </select>
+            <button class="search-btn" type="submit">Tìm Kiếm</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Main Content -->
+  <div class="main-content">
+    <div class="container">
+      <div class="content-wrapper">
+        <!-- Main Column -->
+        <main class="main-column">
+          <section class="job-section">
+            <h2 class="section-title">Công Việc Mới Nhất</h2>
+            <div class="job-grid">
+              <!-- Job Card 1 -->
+              <div class="job-card">
+                <h3>Công nhân may túi xách</h3>
+                <p class="job-company">Công ty TNHH May Thịnh Phát</p>
+                <p class="job-location"><i class="fas fa-map-marker-alt"></i> Bình Dương</p>
+                <p class="job-salary">6 - 8 triệu</p>
+                <p class="job-desc">Tuyển công nhân may túi xách xuất khẩu, có kinh nghiệm 1 năm, làm việc tại KCN Sóng Thần...</p>
+                <a href="/job-detail.html" class="apply-btn">Xem Chi Tiết</a>
+              </div>
+              
+              <!-- Job Card 2 -->
+              <div class="job-card">
+                <h3>Công nhân sản xuất linh kiện điện tử</h3>
+                <p class="job-company">Công ty TNHH Samsung Electronics</p>
+                <p class="job-location"><i class="fas fa-map-marker-alt"></i> Bắc Ninh</p>
+                <p class="job-salary">7 - 9 triệu</p>
+                <p class="job-desc">Tuyển dụng công nhân sản xuất linh kiện điện tử, làm việc theo ca, có bảo hiểm đầy đủ...</p>
+                <a href="/job-detail.html" class="apply-btn">Xem Chi Tiết</a>
+              </div>
+              
+              <!-- Job Card 3 -->
+              <div class="job-card">
+                <h3>Công nhân đóng gói thực phẩm</h3>
+                <p class="job-company">Công ty CP Thực phẩm Minh Nhật</p>
+                <p class="job-location"><i class="fas fa-map-marker-alt"></i> Hà Nội</p>
+                <p class="job-salary">5 - 7 triệu</p>
+                <p class="job-desc">Cần tuyển công nhân đóng gói sản phẩm thực phẩm, làm việc tại nhà máy Đông Anh, có xe đưa đón...</p>
+                <a href="/job-detail.html" class="apply-btn">Xem Chi Tiết</a>
+              </div>
+              
+              <!-- Job Card 4 -->
+              <div class="job-card">
+                <h3>Thợ hàn kim loại</h3>
+                <p class="job-company">Công ty TNHH Cơ khí Thành Công</p>
+                <p class="job-location"><i class="fas fa-map-marker-alt"></i> Đồng Nai</p>
+                <p class="job-salary">8 - 12 triệu</p>
+                <p class="job-desc">Cần tuyển thợ hàn có tay nghề và kinh nghiệm, làm việc tại xưởng cơ khí KCN Biên Hòa...</p>
+                <a href="/job-detail.html" class="apply-btn">Xem Chi Tiết</a>
+              </div>
+              
+              <!-- Job Card 5 -->
+              <div class="job-card">
+                <h3>Công nhân lắp ráp linh kiện ô tô</h3>
+                <p class="job-company">Công ty TNHH Ô tô Hyundai Thành Công</p>
+                <p class="job-location"><i class="fas fa-map-marker-alt"></i> Ninh Bình</p>
+                <p class="job-salary">7 - 9 triệu</p>
+                <p class="job-desc">Tuyển công nhân lắp ráp linh kiện ô tô, làm việc tại nhà máy Hyundai Ninh Bình, có kinh nghiệm...</p>
+                <a href="/job-detail.html" class="apply-btn">Xem Chi Tiết</a>
+              </div>
+              
+              <!-- Job Card 6 -->
+              <div class="job-card">
+                <h3>Công nhân vận hành máy dệt</h3>
+                <p class="job-company">Công ty Dệt may Phong Phú</p>
+                <p class="job-location"><i class="fas fa-map-marker-alt"></i> TP. Hồ Chí Minh</p>
+                <p class="job-salary">6 - 8 triệu</p>
+                <p class="job-desc">Cần tuyển công nhân vận hành máy dệt, làm việc theo ca, có bảo hiểm đầy đủ, có nhà ở cho công nhân...</p>
+                <a href="/job-detail.html" class="apply-btn">Xem Chi Tiết</a>
+              </div>
+            </div>
+          </section>
+          
+          <!-- Blog Posts Section -->
+          <section class="blog-section">
+            <h2 class="section-title">Tin Tức & Hướng Dẫn</h2>
+            
+            <!-- Blog Post 1 -->
+            <div class="post">
+              <div class="post-header">
+                <h3 class="post-title">
+                  <a href="/blog-detail.html">Kinh nghiệm phỏng vấn xin việc cho công nhân nhà máy</a>
+                </h3>
+                <div class="post-meta">
+                  <span class="post-timestamp">
+                    <i class="fas fa-calendar-alt"></i> 12/04/2025
+                  </span>
+                  <span class="post-labels">
+                    <i class="fas fa-tags"></i>
+                    <a href="/huong-dan.html">Hướng dẫn</a>, 
+                    <a href="/phong-van.html">Phỏng vấn</a>
+                  </span>
+                </div>
+              </div>
+              <div class="post-body">
+                <div class="post-content">
+                  <p>Phỏng vấn xin việc luôn là một trong những khâu quan trọng nhất trong quá trình tìm việc làm. Đối với công nhân nhà máy, việc chuẩn bị tốt cho buổi phỏng vấn sẽ giúp tăng cơ hội được tuyển dụng vào các công ty và nhà máy uy tín với mức lương tốt...</p>
+                </div>
+                <div class="post-footer">
+                  <a class="read-more" href="/blog-detail.html">Xem Chi Tiết</a>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Blog Post 2 -->
+            <div class="post">
+              <div class="post-header">
+                <h3 class="post-title">
+                  <a href="/blog-detail.html">Các khu công nghiệp đang có nhu cầu tuyển dụng cao ở Bình Dương</a>
+                </h3>
+                <div class="post-meta">
+                  <span class="post-timestamp">
+                    <i class="fas fa-calendar-alt"></i> 10/04/2025
+                  </span>
+                  <span class="post-labels">
+                    <i class="fas fa-tags"></i>
+                    <a href="/khu-cong-nghiep.html">Khu công nghiệp</a>, 
+                    <a href="/binh-duong.html">Bình Dương</a>
+                  </span>
+                </div>
+              </div>
+              <div class="post-body">
+                <div class="post-content">
+                  <p>Bình Dương tiếp tục là một trong những tỉnh có nhu cầu tuyển dụng lao động cao nhất cả nước, đặc biệt là lao động trong các ngành may mặc, điện tử, chế biến gỗ và thực phẩm. Các khu công nghiệp như Sóng Thần, VSIP, Mỹ Phước đang cần một lượng lớn công nhân...</p>
+                </div>
+                <div class="post-footer">
+                  <a class="read-more" href="/blog-detail.html">Xem Chi Tiết</a>
+                </div>
+              </div>
+            </div>
+          </section>
+        </main>
+        
+        <!-- Sidebar -->
+        <aside class="sidebar">
+          <!-- Search Widget -->
+          <div class="widget">
+            <h3 class="widget-title">Tìm Kiếm Nhanh</h3>
+            <div class="widget-content">
+              <form action="/search.html" method="get">
+                <input class="search-input" name="q" placeholder="Tìm kiếm công việc..." style="width:100%; margin-bottom:10px;" type="text"/>
+                <button class="search-btn" style="width:100%;" type="submit">Tìm Kiếm</button>
+              </form>
+            </div>
+          </div>
+          
+          <!-- Categories Widget -->
+          <div class="widget categories">
+            <h3 class="widget-title">Ngành Nghề</h3>
+            <div class="widget-content">
+              <ul>
+                <li>
+                  <a href="/nganh-nghe/san-xuat.html">
+                    Sản xuất
+                    <span class="count">124</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="/nganh-nghe/may-mac.html">
+                    May mặc
+                    <span class="count">98</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="/nganh-nghe/dien-tu.html">
+                    Điện tử
+                    <span class="count">87</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="/nganh-nghe/co-khi.html">
+                    Cơ khí
+                    <span class="count">76</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="/nganh-nghe/thuc-pham.html">
+                    Thực phẩm
+                    <span class="count">65</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="/nganh-nghe/dong-goi.html">
+                    Đóng gói
+                    <span class="count">52</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          
+          <!-- Popular Jobs Widget -->
+          <div class="widget">
+            <h3 class="widget-title">Việc Làm Phổ Biến</h3>
+            <div class="widget-content">
+              <ul class="popular-jobs">
+                <li>
+                  <a href="/nganh-nghe/may-mac.html">Công Nhân May</a>
+                  <div class="job-company">Nhiều công ty</div>
+                </li>
+                <li>
+                  <a href="/nganh-nghe/dien-tu.html">Công Nhân Điện Tử</a>
+                  <div class="job-company">Samsung, LG, Canon</div>
+                </li>
+                <li>
+                  <a href="/nganh-nghe/co-khi.html">Thợ Hàn</a>
+                  <div class="job-company">Các xưởng cơ khí</div>
+                </li>
+                <li>
+                  <a href="/nganh-nghe/pho-thong.html">Lao Động Phổ Thông</a>
+                  <div class="job-company">Nhiều vị trí</div>
+                </li>
+                <li>
+                  <a href="/nganh-nghe/dong-goi.html">Công Nhân Đóng Gói</a>
+                  <div class="job-company">Các nhà máy thực phẩm</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          
+          <!-- Contact Info Widget -->
+          <div class="widget">
+            <h3 class="widget-title">Thông Tin Liên Hệ</h3>
+            <div class="widget-content">
+              <ul class="footer-contact" style="list-style:none; padding-left:0;">
+                <li><i class="fas fa-map-marker-alt"></i> 123 Đường ABC, Quận XYZ, TP.HCM</li>
+                <li><i class="fas fa-phone-alt"></i> 0123 456 789</li>
+                <li><i class="fas fa-envelope"></i> lienhe@vieclamcongnhan.com</li>
+                <li><i class="fas fa-clock"></i> 8:00 - 17:30 (Thứ 2 - Thứ 6)</li>
+              </ul>
+              <div class="footer-social" style="margin-top:15px;">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-zalo">Z</i></a>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Features Section -->
+  <section class="features">
+    <div class="container">
+      <h2 class="features-title">Tại Sao Chọn Chúng Tôi?</h2>
+      
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-briefcase"></i>
+          </div>
+          <h3>Nhiều Công Việc</h3>
+          <p>Hàng nghìn công việc được cập nhật hàng ngày từ các công ty uy tín trên toàn quốc.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-file-alt"></i>
+          </div>
+          <h3>Dễ Dàng Ứng Tuyển</h3>
+          <p>Chỉ với vài bước đơn giản, bạn có thể nộp hồ sơ ứng tuyển công việc mong muốn.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-headset"></i>
+          </div>
+          <h3>Hỗ Trợ Tận Tình</h3>
+          <p>Đội ngũ tư vấn viên luôn sẵn sàng hỗ trợ bạn trong quá trình tìm việc.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-building"></i>
+          </div>
+          <h3>Cơ Hội Việc Làm</h3>
+          <p>Kết nối với các doanh nghiệp lớn có nhu cầu tuyển dụng cao trên toàn quốc.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Call to Action -->
+  <section class="cta">
+    <div class="container">
+      <h2 class="cta-title">Bạn Đang Tìm Việc Làm?</h2>
+      <p class="cta-text">Đừng bỏ lỡ cơ hội việc làm tốt nhất! Đăng ký nhận thông báo công việc mới phù hợp với bạn.</p>
+      <a class="cta-btn" href="/dang-ky.html">Đăng Ký Ngay</a>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-col">
+          <h3>Việc Làm Công Nhân</h3>
+          <div class="footer-info">
+            <p>Website kết nối công nhân với các cơ hội việc làm phù hợp tại các khu công nghiệp, nhà máy và xí nghiệp trên toàn quốc.</p>
+          </div>
+          <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-zalo">Z</i></a>
+          </div>
+        </div>
+        
+        <div class="footer-col">
+          <h3>Liên Kết Nhanh</h3>
+          <ul>
+            <li><a href="/">Trang Chủ</a></li>
+            <li><a href="/vieclam.html">Việc Làm</a></li>
+            <li><a href="/nganh-nghe.html">Ngành Nghề</a></li>
+            <li><a href="/cong-ty.html">Công Ty</a></li>
+            <li><a href="/huong-dan.html">Hướng Dẫn</a></li>
+            <li><a href="/lien-he.html">Liên Hệ</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h3>Ngành Nghề</h3>
+          <ul>
+            <li><a href="/nganh-nghe/san-xuat.html">Sản Xuất</a></li>
+            <li><a href="/nganh-nghe/may-mac.html">May Mặc</a></li>
+            <li><a href="/nganh-nghe/dien-tu.html">Điện Tử</a></li>
+            <li><a href="/nganh-nghe/co-khi.html">Cơ Khí</a></li>
+            <li><a href="/nganh-nghe/thuc-pham.html">Thực Phẩm</a></li>
+            <li><a href="/nganh-nghe/dong-goi.html">Đóng Gói</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h3>Thông Tin Liên Hệ</h3>
+          <ul class="footer-contact">
+            <li><i class="fas fa-map-marker-alt"></i> 123 Đường ABC, Quận XYZ, TP.HCM</li>
+            <li><i class="fas fa-phone-alt"></i> 0123 456 789</li>
+            <li><i class="fas fa-envelope"></i> lienhe@vieclamcongnhan.com</li>
+            <li><i class="fas fa-clock"></i> 8:00 - 17:30 (Thứ 2 - Thứ 6)</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&#169; 2025 Việc Làm Công Nhân. Tất cả quyền được bảo lưu.</p>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+</html>
